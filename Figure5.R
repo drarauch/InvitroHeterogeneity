@@ -1,7 +1,7 @@
 ### Figure 5
 # The  files are provided at the open science framework https://osf.io/s8nfb/ 
 
-### Figure 5B
+### Figure 5D
 # Flow cytometry based Surface marker expression on MSC (Standford) cultured in HPL 
 Data <- read.delim("SurfaceMarker_MSC.txt",h=T)
 
@@ -14,7 +14,7 @@ for (i in 1:length(vec)){
 }
 rm(Data,vec)
 
-### Figure 5C
+### Figure 5E
 # Correlation of percentage positive cells for SSC markers and CD151, CD73, and ITGA11 on MSC (Standford) cultured in HPL 
 library(gplots)
 library(fields)
@@ -44,7 +44,7 @@ rm(Data,vec,mat_col.mat_col_breaks,y_sig, y_cor)
 
 
 
-### Figure 5D scatter plot of significant examples in 4C
+### Figure 5F scatter plot of significant examples in 4C
 # Correlation of percentage positive cells for SSC markers and CD151, CD73, and ITGA11 on MSC (Standford) cultured in HPL 
 Data <- read.delim("SurfaceMarker_MSC.txt",h=T)
 
@@ -63,7 +63,7 @@ rm(Data)
 
 
 
-### Figure 5E
+### Figure 5G
 # Correlation of MFI for SSC markers and CD151, CD73, and ITGA11 on MSC (Standford) cultured in HPL 
 library(gplots)
 library(fields)
