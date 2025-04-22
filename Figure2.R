@@ -78,7 +78,7 @@ scobject <- qs::qread("SeuratObject.qs")
 library(Seurat)
 
 # Dot Plot of known MSC related genes
-DP <- DotPlot(scobject, features=c("PDGFRA", "NT5E", "CD34", "ENG", "THY1", "CXCL12", "CD14", "GREM1", "NGFR", "MCAM", "CXCR4", "LEPR", "SDC2"))
+DP <- DotPlot(scobject, features=c("PDGFRA", "NT5E", "CD34", "ENG", "THY1", "CXCL12", "GREM1", "NGFR", "MCAM", "CXCR4", "LEPR", "SDC2"))
 DP
 
 # Generate dendogram
